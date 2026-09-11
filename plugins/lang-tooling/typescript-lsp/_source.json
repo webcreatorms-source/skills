@@ -1,0 +1,10 @@
+{
+  "plugin": "typescript-lsp",
+  "marketplace": "claude-plugins-official",
+  "marketplaceRepo": "anthropics/claude-plugins-official",
+  "version": "1.0.0",
+  "gitCommitSha": null,
+  "installedAt": "2026-09-11T18:41:22.016Z",
+  "lastUpdated": "2026-09-11T18:41:22.016Z",
+  "installCommand": "claude plugin install typescript-lsp@claude-plugins-official"
+}

@@ -43,6 +43,8 @@ const PLUGIN_CATS = {
   'accesslint': 'accessibility',
   'playwright': 'testing',
   'prisma': 'database',
+  'typescript-lsp': 'lang-tooling', 'php-lsp': 'lang-tooling',
+  'mattpocock-skills': 'dev-workflow',
   'semgrep': 'security', 'security-guidance': 'security',
   'modern-web-guidance': 'frontend-frameworks',
   'commit-commands': 'dev-workflow', 'pr-review-toolkit': 'dev-workflow',
@@ -60,6 +62,7 @@ const CAT_LABELS = {
   'animation-3d': 'Animacion, 3D y scroll',
   'frontend-frameworks': 'Frameworks frontend',
   'database': 'Bases de datos',
+  'lang-tooling': 'Servidores de lenguaje (LSP)',
   'seo': 'SEO',
   'accessibility': 'Accesibilidad',
   'testing': 'Testing y QA',
@@ -123,6 +126,16 @@ function pluginDesc(relPath, pluginName) {
       const hit = (j.plugins ?? []).find((x) => x.name === pluginName);
       if (hit?.description) return hit.description;
     } catch { /* sigue */ }
+  }
+  // Ultimo recurso (p.ej. los plugins LSP, que solo traen README):
+  // el primer parrafo de texto del README, saltando titulos y badges.
+  const rm = path.join(REPO, relPath, 'README.md');
+  if (fs.existsSync(rm)) {
+    const para = fs.readFileSync(rm, 'utf8')
+      .split(/\n\s*\n/)
+      .map((p) => p.trim())
+      .find((p) => p && !p.startsWith('#') && !p.startsWith('!') && !p.startsWith('<'));
+    if (para) return para.replace(/\s+/g, ' ');
   }
   return '';
 }

@@ -5,8 +5,8 @@ Repositorio espejo de todas las **skills** y **plugins** de Claude Code instalad
 | | Cantidad |
 |---|---|
 | Skills standalone | 19 |
-| Plugins de marketplace | 37 |
-| SKILL.md totales | 177 |
+| Plugins de marketplace | 40 |
+| SKILL.md totales | 214 |
 | Marketplaces de origen | 10 |
 
 Ultima sincronizacion: 2026-09-11
@@ -25,10 +25,11 @@ plugins/    <- plugins de marketplace, copiados de ~/.claude/plugins/cache
   animation-3d/           Animacion, 3D y scroll (17)
   frontend-frameworks/    Frameworks frontend (1)
   database/               Bases de datos (1)
+  lang-tooling/           Servidores de lenguaje (LSP) (2)
   seo/                    SEO (1)
   accessibility/          Accesibilidad (1)
   testing/                Testing y QA (1)
-  dev-workflow/           Workflow de desarrollo (4)
+  dev-workflow/           Workflow de desarrollo (5)
   documents/              Documentos (docx, xlsx, pptx, pdf) (1)
   security/               Seguridad (3)
   video-media/            Video y media (1)
@@ -131,6 +132,13 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 |---|---|---|---|---|
 | [`prisma`](plugins/database/prisma) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `815dbc4a045a` | — | Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection strin… |
 
+### Servidores de lenguaje (LSP)
+
+| Plugin | Origen | Version | Skills | Descripcion |
+|---|---|---|---|---|
+| [`php-lsp`](plugins/lang-tooling/php-lsp) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `1.0.0` | — | PHP language server (Intelephense) for Claude Code, providing code intelligence and diagnostics. |
+| [`typescript-lsp`](plugins/lang-tooling/typescript-lsp) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `1.0.0` | — | TypeScript/JavaScript language server for Claude Code, providing code intelligence features like go-to-defini… |
+
 ### SEO
 
 | Plugin | Origen | Version | Skills | Descripcion |
@@ -156,6 +164,7 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 | [`agent-sdk-dev`](plugins/dev-workflow/agent-sdk-dev) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Claude Agent SDK Development Plugin |
 | [`commit-commands`](plugins/dev-workflow/commit-commands) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Streamline your git workflow with simple commands for committing, pushing, and creating pull requests |
 | [`feature-dev`](plugins/dev-workflow/feature-dev) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Comprehensive feature development workflow with specialized agents for codebase exploration, architecture des… |
+| [`mattpocock-skills`](plugins/dev-workflow/mattpocock-skills) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `1.2.3` | 37 | Matt Pocock's agent skills for real engineering: grilling, spec/ticket flows, TDD, code review, domain modell… |
 | [`pr-review-toolkit`](plugins/dev-workflow/pr-review-toolkit) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, an… |
 
 ### Documentos (docx, xlsx, pptx, pdf)

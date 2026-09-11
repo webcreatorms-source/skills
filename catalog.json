@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:20:51.780Z",
+  "generatedAt": "2026-09-11T18:42:59.485Z",
   "skills": [
     {
       "name": "animation-vocabulary",
@@ -673,6 +673,48 @@
       "path": "plugins/database/prisma",
       "description": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
       "skillCount": 0
+    },
+    {
+      "plugin": "typescript-lsp",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "1.0.0",
+      "gitCommitSha": null,
+      "installedAt": "2026-09-11T18:41:22.016Z",
+      "lastUpdated": "2026-09-11T18:41:22.016Z",
+      "installCommand": "claude plugin install typescript-lsp@claude-plugins-official",
+      "category": "lang-tooling",
+      "path": "plugins/lang-tooling/typescript-lsp",
+      "description": "TypeScript/JavaScript language server for Claude Code, providing code intelligence features like go-to-definition, find references, and error checking.",
+      "skillCount": 0
+    },
+    {
+      "plugin": "php-lsp",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "1.0.0",
+      "gitCommitSha": null,
+      "installedAt": "2026-09-11T18:41:23.925Z",
+      "lastUpdated": "2026-09-11T18:41:23.925Z",
+      "installCommand": "claude plugin install php-lsp@claude-plugins-official",
+      "category": "lang-tooling",
+      "path": "plugins/lang-tooling/php-lsp",
+      "description": "PHP language server (Intelephense) for Claude Code, providing code intelligence and diagnostics.",
+      "skillCount": 0
+    },
+    {
+      "plugin": "mattpocock-skills",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "1.2.3",
+      "gitCommitSha": "3cca18b368ae95cdbdebbff572ccafa662551015",
+      "installedAt": "2026-09-11T18:41:28.444Z",
+      "lastUpdated": "2026-09-11T18:41:28.444Z",
+      "installCommand": "claude plugin install mattpocock-skills@claude-plugins-official",
+      "category": "dev-workflow",
+      "path": "plugins/dev-workflow/mattpocock-skills",
+      "description": "Matt Pocock's agent skills for real engineering: grilling, spec/ticket flows, TDD, code review, domain modelling and more. Plug-and-play, not vibe coding.",
+      "skillCount": 37
     }
   ],
   "sourcesScanned": [
