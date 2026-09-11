@@ -1,0 +1,23 @@
+# artefactos que dejan las skills al ejecutarse
+.coverage
+.coverage.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.venv/
+venv/
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+
+# nada de credenciales en este repo
+.env
+.env.*
+*.pem
+*_token*
+*credentials*

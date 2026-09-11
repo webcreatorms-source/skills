@@ -1,0 +1,10 @@
+{
+  "plugin": "pr-review-toolkit",
+  "marketplace": "claude-plugins-official",
+  "marketplaceRepo": "anthropics/claude-plugins-official",
+  "version": "3deb821cb71c",
+  "gitCommitSha": null,
+  "installedAt": "2026-07-22T08:21:33.111Z",
+  "lastUpdated": "2026-09-11T17:28:22.437Z",
+  "installCommand": "claude plugin install pr-review-toolkit@claude-plugins-official"
+}

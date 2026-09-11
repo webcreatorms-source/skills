@@ -1,0 +1,10 @@
+{
+  "plugin": "motion-framer",
+  "marketplace": "claude-design-skillstack",
+  "marketplaceRepo": "freshtechbro/claudedesignskills",
+  "version": "1.0.0",
+  "gitCommitSha": "1da73febff0c3e1dfefc07f8a5ef8f7d1dfdb6cd",
+  "installedAt": "2026-07-08T22:47:12.970Z",
+  "lastUpdated": "2026-07-08T22:47:12.970Z",
+  "installCommand": "claude plugin install motion-framer@claude-design-skillstack"
+}

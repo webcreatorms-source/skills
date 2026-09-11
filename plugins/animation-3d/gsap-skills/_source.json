@@ -1,0 +1,10 @@
+{
+  "plugin": "gsap-skills",
+  "marketplace": "gsap-skills",
+  "marketplaceRepo": "greensock/gsap-skills",
+  "version": "1.0.0",
+  "gitCommitSha": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "installedAt": "2026-07-08T22:47:16.874Z",
+  "lastUpdated": "2026-07-08T22:47:16.874Z",
+  "installCommand": "claude plugin install gsap-skills@gsap-skills"
+}

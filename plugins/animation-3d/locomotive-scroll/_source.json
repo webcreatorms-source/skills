@@ -1,0 +1,10 @@
+{
+  "plugin": "locomotive-scroll",
+  "marketplace": "claude-design-skillstack",
+  "marketplaceRepo": "freshtechbro/claudedesignskills",
+  "version": "1.0.0",
+  "gitCommitSha": "1da73febff0c3e1dfefc07f8a5ef8f7d1dfdb6cd",
+  "installedAt": "2026-07-22T08:21:57.693Z",
+  "lastUpdated": "2026-07-22T08:21:57.693Z",
+  "installCommand": "claude plugin install locomotive-scroll@claude-design-skillstack"
+}

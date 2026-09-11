@@ -1,0 +1,10 @@
+{
+  "plugin": "commit-commands",
+  "marketplace": "claude-plugins-official",
+  "marketplaceRepo": "anthropics/claude-plugins-official",
+  "version": "3deb821cb71c",
+  "gitCommitSha": null,
+  "installedAt": "2026-07-22T08:21:32.006Z",
+  "lastUpdated": "2026-09-11T17:28:22.461Z",
+  "installCommand": "claude plugin install commit-commands@claude-plugins-official"
+}

@@ -1,0 +1,10 @@
+{
+  "plugin": "example-skills",
+  "marketplace": "anthropic-agent-skills",
+  "marketplaceRepo": "anthropics/skills",
+  "version": "34040c9c5685",
+  "gitCommitSha": "34040c9c568585f6929bedeaad110ad08f079624",
+  "installedAt": "2026-07-22T08:21:37.187Z",
+  "lastUpdated": "2026-09-11T17:28:22.475Z",
+  "installCommand": "claude plugin install example-skills@anthropic-agent-skills"
+}

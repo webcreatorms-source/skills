@@ -1,0 +1,10 @@
+{
+  "plugin": "meta-skills",
+  "marketplace": "claude-design-skillstack",
+  "marketplaceRepo": "freshtechbro/claudedesignskills",
+  "version": "1.0.0",
+  "gitCommitSha": "1da73febff0c3e1dfefc07f8a5ef8f7d1dfdb6cd",
+  "installedAt": "2026-07-22T08:21:51.717Z",
+  "lastUpdated": "2026-07-22T08:21:51.717Z",
+  "installCommand": "claude plugin install meta-skills@claude-design-skillstack"
+}

@@ -1,0 +1,11 @@
+{
+  "plugin": "core-skills",
+  "marketplace": "hyperframes",
+  "marketplaceRepo": null,
+  "version": "0.8.34",
+  "gitCommitSha": null,
+  "installedAt": "2026-09-11T17:45:24.328Z",
+  "lastUpdated": "2026-09-11T17:45:24.328Z",
+  "installCommand": "claude plugin install core-skills@hyperframes",
+  "localMarketplace": true
+}

@@ -1,0 +1,10 @@
+{
+  "plugin": "tailwind-v4-shadcn",
+  "marketplace": "claude-skills",
+  "marketplaceRepo": "secondsky/claude-skills",
+  "version": "3.3.1",
+  "gitCommitSha": "5e92b7170451adf347b8719ee984e147f3eabbea",
+  "installedAt": "2026-07-08T22:47:08.194Z",
+  "lastUpdated": "2026-07-08T22:47:08.194Z",
+  "installCommand": "claude plugin install tailwind-v4-shadcn@claude-skills"
+}

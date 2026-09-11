@@ -1,0 +1,10 @@
+{
+  "plugin": "andrej-karpathy-skills",
+  "marketplace": "karpathy-skills",
+  "marketplaceRepo": "forrestchang/andrej-karpathy-skills",
+  "version": "1.0.0",
+  "gitCommitSha": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+  "installedAt": "2026-07-22T08:21:38.148Z",
+  "lastUpdated": "2026-07-22T08:21:38.148Z",
+  "installCommand": "claude plugin install andrej-karpathy-skills@karpathy-skills"
+}

@@ -1,0 +1,10 @@
+{
+  "plugin": "ui-ux-pro-max",
+  "marketplace": "ui-ux-pro-max-skill",
+  "marketplaceRepo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "version": "2.11.0",
+  "gitCommitSha": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+  "installedAt": "2026-07-22T08:20:58.091Z",
+  "lastUpdated": "2026-07-22T08:20:58.091Z",
+  "installCommand": "claude plugin install ui-ux-pro-max@ui-ux-pro-max-skill"
+}

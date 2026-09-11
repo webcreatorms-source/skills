@@ -1,0 +1,10 @@
+{
+  "plugin": "claude-security",
+  "marketplace": "claude-plugins-official",
+  "marketplaceRepo": "anthropics/claude-plugins-official",
+  "version": "0.11.0",
+  "gitCommitSha": null,
+  "installedAt": "2026-09-10T15:01:02.397Z",
+  "lastUpdated": "2026-09-10T15:01:02.397Z",
+  "installCommand": "claude plugin install claude-security@claude-plugins-official"
+}

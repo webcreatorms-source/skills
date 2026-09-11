@@ -1,0 +1,10 @@
+{
+  "plugin": "accesslint",
+  "marketplace": "accesslint",
+  "marketplaceRepo": "accesslint/skills",
+  "version": "0.8.0",
+  "gitCommitSha": "ceb3fa80fc8be8d8959f5b3eb812ac8cc33a5a59",
+  "installedAt": "2026-07-08T22:47:20.408Z",
+  "lastUpdated": "2026-07-08T22:47:20.408Z",
+  "installCommand": "claude plugin install accesslint@accesslint"
+}

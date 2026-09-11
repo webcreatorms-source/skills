@@ -1,0 +1,10 @@
+{
+  "plugin": "claude-seo",
+  "marketplace": "agricidaniel-claude-seo",
+  "marketplaceRepo": "AgriciDaniel/claude-seo",
+  "version": "2.2.0",
+  "gitCommitSha": "6cf1ea9fe4c2088b2ad3089797f846850fd66164",
+  "installedAt": "2026-07-08T22:47:25.249Z",
+  "lastUpdated": "2026-07-08T22:47:25.249Z",
+  "installCommand": "claude plugin install claude-seo@agricidaniel-claude-seo"
+}
