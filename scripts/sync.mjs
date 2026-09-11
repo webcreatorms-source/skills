@@ -30,7 +30,7 @@ const SKILL_CATS = {
 };
 
 const PLUGIN_CATS = {
-  'claude-seo': 'seo',
+  'claude-seo': 'seo', 'claude-blog': 'seo',
   'frontend-design': 'design-ui', 'ui-ux-pro-max': 'design-ui',
   'tailwind-v4-shadcn': 'design-ui', 'meta-skills': 'design-ui',
   'motion-framer': 'animation-3d', 'gsap-skills': 'animation-3d', 'gsap-scrolltrigger': 'animation-3d',
@@ -41,7 +41,7 @@ const PLUGIN_CATS = {
   'pixijs-2d': 'animation-3d', 'lottie-animations': 'animation-3d', 'animejs': 'animation-3d',
   'spline-interactive': 'animation-3d', 'rive-interactive': 'animation-3d',
   'accesslint': 'accessibility',
-  'playwright': 'testing',
+  'playwright': 'testing', 'pw': 'testing',
   'prisma': 'database',
   'typescript-lsp': 'lang-tooling', 'php-lsp': 'lang-tooling',
   'mattpocock-skills': 'dev-workflow',
@@ -78,11 +78,15 @@ const CAT_LABELS = {
 
 // Plugins cuya carpeta en el repo se mantiene a mano (marketplace local) y
 // por tanto no se sobreescriben desde la cache de ~/.claude.
-const PINNED = new Set(['core-skills']);
+// 'pw' (playwright-pro) aun no esta instalado: ver su _PENDIENTE.md.
+const PINNED = new Set(['core-skills', 'pw']);
 
 // Repo de GitHub del que salio cada marketplace local (no figura en
 // known_marketplaces.json porque alli consta como ruta de directorio).
-const LOCAL_ORIGINS = { hyperframes: 'heygen-com/hyperframes' };
+const LOCAL_ORIGINS = {
+  hyperframes: 'heygen-com/hyperframes',
+  'playwright-pro': 'alirezarezvani/claude-skills',
+};
 
 // ------------------------------------------------------------------ utilidades
 function frontmatter(dir) {

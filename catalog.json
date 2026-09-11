@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:42:59.485Z",
+  "generatedAt": "2026-09-11T19:30:44.310Z",
   "skills": [
     {
       "name": "animation-vocabulary",
@@ -715,6 +715,20 @@
       "path": "plugins/dev-workflow/mattpocock-skills",
       "description": "Matt Pocock's agent skills for real engineering: grilling, spec/ticket flows, TDD, code review, domain modelling and more. Plug-and-play, not vibe coding.",
       "skillCount": 37
+    },
+    {
+      "plugin": "claude-blog",
+      "marketplace": "claude-community",
+      "marketplaceRepo": "anthropics/claude-plugins-community",
+      "version": "2.1.1",
+      "gitCommitSha": "aec971ac511370c6216cd93776c9cf2fec97b32a",
+      "installedAt": "2026-09-11T19:25:24.613Z",
+      "lastUpdated": "2026-09-11T19:25:24.613Z",
+      "installCommand": "claude plugin install claude-blog@claude-community",
+      "category": "seo",
+      "path": "plugins/seo/claude-blog",
+      "description": "AI-powered blog skill suite: 32 skill directories (1 orchestrator + 31 sub-skills) and 5 agents for writing, rewriting, auditing, and optimizing content for Google rankings and AI citations (GEO/AEO). Includes the FLOW framework, semantic topic-cluster planning, multilingual publishing, Google API integration, persona writing, fact-checking, cannibalization detection, CMS taxonomy, NotebookLM research, Gemini TTS narration, image generation, and 5-category quality scoring.",
+      "skillCount": 65
     }
   ],
   "sourcesScanned": [

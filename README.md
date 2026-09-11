@@ -5,9 +5,9 @@ Repositorio espejo de todas las **skills** y **plugins** de Claude Code instalad
 | | Cantidad |
 |---|---|
 | Skills standalone | 19 |
-| Plugins de marketplace | 40 |
-| SKILL.md totales | 214 |
-| Marketplaces de origen | 10 |
+| Plugins de marketplace | 41 |
+| SKILL.md totales | 279 |
+| Marketplaces de origen | 11 |
 
 Ultima sincronizacion: 2026-09-11
 
@@ -26,7 +26,7 @@ plugins/    <- plugins de marketplace, copiados de ~/.claude/plugins/cache
   frontend-frameworks/    Frameworks frontend (1)
   database/               Bases de datos (1)
   lang-tooling/           Servidores de lenguaje (LSP) (2)
-  seo/                    SEO (1)
+  seo/                    SEO (2)
   accessibility/          Accesibilidad (1)
   testing/                Testing y QA (1)
   dev-workflow/           Workflow de desarrollo (5)
@@ -143,6 +143,7 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 
 | Plugin | Origen | Version | Skills | Descripcion |
 |---|---|---|---|---|
+| [`claude-blog`](plugins/seo/claude-blog) | [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) | `2.1.1` | 65 | AI-powered blog skill suite: 32 skill directories (1 orchestrator + 31 sub-skills) and 5 agents for writing… |
 | [`claude-seo`](plugins/seo/claude-seo) | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | `2.2.0` | 33 | Comprehensive SEO analysis plugin for Claude Code. 25 sub-skills (21 core + 1 orchestrator + 1 framework + 2… |
 
 ### Accesibilidad

@@ -1,0 +1,16 @@
+{
+  "name": "playwright-pro",
+  "owner": {
+    "name": "Alireza Rezvani",
+    "url": "https://github.com/alirezarezvani/claude-skills"
+  },
+  "plugins": [
+    {
+      "name": "pw",
+      "source": "./",
+      "description": "Production-grade Playwright testing toolkit. Generate tests from specs, fix flaky failures, migrate from Cypress/Selenium. 55+ templates, 3 agents, hooks that validate every test file written.",
+      "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro",
+      "license": "MIT"
+    }
+  ]
+}
