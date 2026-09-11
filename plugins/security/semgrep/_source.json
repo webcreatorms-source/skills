@@ -1,0 +1,10 @@
+{
+  "plugin": "semgrep",
+  "marketplace": "claude-plugins-official",
+  "marketplaceRepo": "anthropics/claude-plugins-official",
+  "version": "2.2.0",
+  "gitCommitSha": "55b1f8d97a2571c7f27f15beb3080df3b536bd78",
+  "installedAt": "2026-09-11T18:10:54.254Z",
+  "lastUpdated": "2026-09-11T18:10:54.254Z",
+  "installCommand": "claude plugin install semgrep@claude-plugins-official"
+}

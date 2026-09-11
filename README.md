@@ -5,8 +5,8 @@ Repositorio espejo de todas las **skills** y **plugins** de Claude Code instalad
 | | Cantidad |
 |---|---|
 | Skills standalone | 19 |
-| Plugins de marketplace | 31 |
-| SKILL.md totales | 174 |
+| Plugins de marketplace | 36 |
+| SKILL.md totales | 177 |
 | Marketplaces de origen | 10 |
 
 Ultima sincronizacion: 2026-09-11
@@ -23,11 +23,13 @@ skills/     <- skills sueltas, copiadas de ~/.claude/skills
 plugins/    <- plugins de marketplace, copiados de ~/.claude/plugins/cache
   design-ui/              Diseno y UI (4)
   animation-3d/           Animacion, 3D y scroll (17)
+  frontend-frameworks/    Frameworks frontend (1)
   seo/                    SEO (1)
   accessibility/          Accesibilidad (1)
-  dev-workflow/           Workflow de desarrollo (3)
+  testing/                Testing y QA (1)
+  dev-workflow/           Workflow de desarrollo (4)
   documents/              Documentos (docx, xlsx, pptx, pdf) (1)
-  security/               Seguridad (1)
+  security/               Seguridad (3)
   video-media/            Video y media (1)
   ai-learning/            IA y aprendizaje (1)
   examples/               Ejemplos y plantillas (1)
@@ -116,6 +118,12 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 | [`spline-interactive`](plugins/animation-3d/spline-interactive) | [freshtechbro/claudedesignskills](https://github.com/freshtechbro/claudedesignskills) | `1.0.0` | 1 | Browser-based 3D design tool with visual editor, animation, and web export. Use this skill when creating 3D s… |
 | [`threejs-webgl`](plugins/animation-3d/threejs-webgl) | [freshtechbro/claudedesignskills](https://github.com/freshtechbro/claudedesignskills) | `1.0.0` | 1 | Comprehensive skill for Three.js 3D web development. Use this skill when building interactive 3D scenes, WebG… |
 
+### Frameworks frontend
+
+| Plugin | Origen | Version | Skills | Descripcion |
+|---|---|---|---|---|
+| [`modern-web-guidance`](plugins/frontend-frameworks/modern-web-guidance) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `0.0.187` | 2 | Keep your coding agent up to date with the latest web best practices |
+
 ### SEO
 
 | Plugin | Origen | Version | Skills | Descripcion |
@@ -128,12 +136,19 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 |---|---|---|---|---|
 | [`accesslint`](plugins/accessibility/accesslint) | [accesslint/skills](https://github.com/accesslint/skills) | `0.8.0` | 3 | — |
 
+### Testing y QA
+
+| Plugin | Origen | Version | Skills | Descripcion |
+|---|---|---|---|---|
+| [`playwright`](plugins/testing/playwright) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages… |
+
 ### Workflow de desarrollo
 
 | Plugin | Origen | Version | Skills | Descripcion |
 |---|---|---|---|---|
 | [`agent-sdk-dev`](plugins/dev-workflow/agent-sdk-dev) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Claude Agent SDK Development Plugin |
 | [`commit-commands`](plugins/dev-workflow/commit-commands) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Streamline your git workflow with simple commands for committing, pushing, and creating pull requests |
+| [`feature-dev`](plugins/dev-workflow/feature-dev) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Comprehensive feature development workflow with specialized agents for codebase exploration, architecture des… |
 | [`pr-review-toolkit`](plugins/dev-workflow/pr-review-toolkit) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `3deb821cb71c` | — | Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, an… |
 
 ### Documentos (docx, xlsx, pptx, pdf)
@@ -147,6 +162,8 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 | Plugin | Origen | Version | Skills | Descripcion |
 |---|---|---|---|---|
 | [`claude-security`](plugins/security/claude-security) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `0.11.0` | 1 | Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort… |
+| [`security-guidance`](plugins/security/security-guidance) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `2.0.8` | — | Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop… |
+| [`semgrep`](plugins/security/semgrep) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `2.2.0` | 1 | Semgrep Guardian: Scans agent-generated code for security vulnerabilities. |
 
 ### Video y media
 

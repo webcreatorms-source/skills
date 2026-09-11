@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:53:23.310Z",
+  "generatedAt": "2026-09-11T18:11:31.481Z",
   "skills": [
     {
       "name": "animation-vocabulary",
@@ -589,6 +589,76 @@
       "path": "plugins/video-media/hyperframes",
       "description": "HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions, voiceovers, audio-reactive visuals, and website capture for HyperFrames.",
       "skillCount": 20
+    },
+    {
+      "plugin": "semgrep",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "2.2.0",
+      "gitCommitSha": "55b1f8d97a2571c7f27f15beb3080df3b536bd78",
+      "installedAt": "2026-09-11T18:10:54.254Z",
+      "lastUpdated": "2026-09-11T18:10:54.254Z",
+      "installCommand": "claude plugin install semgrep@claude-plugins-official",
+      "category": "security",
+      "path": "plugins/security/semgrep",
+      "description": "Semgrep Guardian: Scans agent-generated code for security vulnerabilities.",
+      "skillCount": 1
+    },
+    {
+      "plugin": "security-guidance",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "2.0.8",
+      "gitCommitSha": null,
+      "installedAt": "2026-09-11T18:10:55.745Z",
+      "lastUpdated": "2026-09-11T18:10:55.745Z",
+      "installCommand": "claude plugin install security-guidance@claude-plugins-official",
+      "category": "security",
+      "path": "plugins/security/security-guidance",
+      "description": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes.",
+      "skillCount": 0
+    },
+    {
+      "plugin": "modern-web-guidance",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "0.0.187",
+      "gitCommitSha": "bfd8c8dded770f3ba07a518e28991a32df40f902",
+      "installedAt": "2026-09-11T18:10:59.684Z",
+      "lastUpdated": "2026-09-11T18:10:59.684Z",
+      "installCommand": "claude plugin install modern-web-guidance@claude-plugins-official",
+      "category": "frontend-frameworks",
+      "path": "plugins/frontend-frameworks/modern-web-guidance",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "skillCount": 2
+    },
+    {
+      "plugin": "playwright",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "3deb821cb71c",
+      "gitCommitSha": null,
+      "installedAt": "2026-09-11T18:11:01.122Z",
+      "lastUpdated": "2026-09-11T18:11:01.122Z",
+      "installCommand": "claude plugin install playwright@claude-plugins-official",
+      "category": "testing",
+      "path": "plugins/testing/playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+      "skillCount": 0
+    },
+    {
+      "plugin": "feature-dev",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "3deb821cb71c",
+      "gitCommitSha": null,
+      "installedAt": "2026-09-11T18:11:02.626Z",
+      "lastUpdated": "2026-09-11T18:11:02.626Z",
+      "installCommand": "claude plugin install feature-dev@claude-plugins-official",
+      "category": "dev-workflow",
+      "path": "plugins/dev-workflow/feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "skillCount": 0
     }
   ],
   "sourcesScanned": [
