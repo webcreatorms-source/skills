@@ -70,6 +70,10 @@ const CAT_LABELS = {
 // por tanto no se sobreescriben desde la cache de ~/.claude.
 const PINNED = new Set(['core-skills']);
 
+// Repo de GitHub del que salio cada marketplace local (no figura en
+// known_marketplaces.json porque alli consta como ruta de directorio).
+const LOCAL_ORIGINS = { hyperframes: 'heygen-com/hyperframes' };
+
 // ------------------------------------------------------------------ utilidades
 function frontmatter(dir) {
   const f = path.join(dir, 'SKILL.md');
@@ -166,7 +170,7 @@ for (const [key, entries] of Object.entries(inst.plugins)) {
   const meta = {
     plugin: pname,
     marketplace: mname,
-    marketplaceRepo: mkts[mname]?.source?.repo ?? null,
+    marketplaceRepo: mkts[mname]?.source?.repo ?? LOCAL_ORIGINS[mname] ?? null,
     version: e.version,
     gitCommitSha: e.gitCommitSha ?? null,
     installedAt: e.installedAt,

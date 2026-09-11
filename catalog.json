@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:48:19.370Z",
+  "generatedAt": "2026-09-11T17:53:23.310Z",
   "skills": [
     {
       "name": "animation-vocabulary",
@@ -578,7 +578,7 @@
     {
       "plugin": "core-skills",
       "marketplace": "hyperframes",
-      "marketplaceRepo": null,
+      "marketplaceRepo": "heygen-com/hyperframes",
       "version": "0.8.34",
       "gitCommitSha": null,
       "installedAt": "2026-09-11T17:45:24.328Z",

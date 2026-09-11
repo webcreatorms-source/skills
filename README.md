@@ -7,7 +7,7 @@ Repositorio espejo de todas las **skills** y **plugins** de Claude Code instalad
 | Skills standalone | 19 |
 | Plugins de marketplace | 31 |
 | SKILL.md totales | 174 |
-| Marketplaces de origen | 9 |
+| Marketplaces de origen | 10 |
 
 Ultima sincronizacion: 2026-09-11
 
@@ -152,7 +152,7 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 
 | Plugin | Origen | Version | Skills | Descripcion |
 |---|---|---|---|---|
-| [`core-skills`](plugins/video-media/hyperframes) | hyperframes | `0.8.34` | 20 | HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions… |
+| [`core-skills`](plugins/video-media/hyperframes) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | `0.8.34` | 20 | HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions… |
 
 ### IA y aprendizaje
 
