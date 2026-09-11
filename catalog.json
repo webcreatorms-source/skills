@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:11:31.481Z",
+  "generatedAt": "2026-09-11T18:20:51.780Z",
   "skills": [
     {
       "name": "animation-vocabulary",
@@ -658,6 +658,20 @@
       "category": "dev-workflow",
       "path": "plugins/dev-workflow/feature-dev",
       "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "skillCount": 0
+    },
+    {
+      "plugin": "prisma",
+      "marketplace": "claude-plugins-official",
+      "marketplaceRepo": "anthropics/claude-plugins-official",
+      "version": "815dbc4a045a",
+      "gitCommitSha": "815dbc4a045a29e3b81510ba0e3ab806f1baaf0e",
+      "installedAt": "2026-09-11T18:20:30.910Z",
+      "lastUpdated": "2026-09-11T18:20:30.910Z",
+      "installCommand": "claude plugin install prisma@claude-plugins-official",
+      "category": "database",
+      "path": "plugins/database/prisma",
+      "description": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
       "skillCount": 0
     }
   ],

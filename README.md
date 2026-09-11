@@ -5,7 +5,7 @@ Repositorio espejo de todas las **skills** y **plugins** de Claude Code instalad
 | | Cantidad |
 |---|---|
 | Skills standalone | 19 |
-| Plugins de marketplace | 36 |
+| Plugins de marketplace | 37 |
 | SKILL.md totales | 177 |
 | Marketplaces de origen | 10 |
 
@@ -24,6 +24,7 @@ plugins/    <- plugins de marketplace, copiados de ~/.claude/plugins/cache
   design-ui/              Diseno y UI (4)
   animation-3d/           Animacion, 3D y scroll (17)
   frontend-frameworks/    Frameworks frontend (1)
+  database/               Bases de datos (1)
   seo/                    SEO (1)
   accessibility/          Accesibilidad (1)
   testing/                Testing y QA (1)
@@ -123,6 +124,12 @@ Cada carpeta de plugin lleva un `_source.json` con su marketplace, version, comm
 | Plugin | Origen | Version | Skills | Descripcion |
 |---|---|---|---|---|
 | [`modern-web-guidance`](plugins/frontend-frameworks/modern-web-guidance) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `0.0.187` | 2 | Keep your coding agent up to date with the latest web best practices |
+
+### Bases de datos
+
+| Plugin | Origen | Version | Skills | Descripcion |
+|---|---|---|---|---|
+| [`prisma`](plugins/database/prisma) | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | `815dbc4a045a` | — | Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection strin… |
 
 ### SEO
 
